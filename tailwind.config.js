@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         main: ['Space Grotesk', 'sans-serif'],
-        options: ['Staatliches', 'sans-serif'],
       },
       backgroundImage: {
         mainBg: "url('/public/main-bg.png')",
