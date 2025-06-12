@@ -8,7 +8,7 @@ type ArrowNextProps = {
 const ArrowNext = ({onClick}: ArrowNextProps) => {
   return (
     <div
-      className="w-16 h-16 bg-white border border-borderArrow rounded-full cursor-pointer hover:bg-quotes transition-colors duration-300 ease-in-out flex items-center justify-center group"
+      className="w-16 h-16 bg-white border border-borderArrow rounded-full cursor-pointer hover:bg-quotes transition-all duration-300 ease-in-out flex items-center justify-center group hover:translate-x-2 md:hover:-translate-x-2"
       onClick={onClick}
     >
       <Icon

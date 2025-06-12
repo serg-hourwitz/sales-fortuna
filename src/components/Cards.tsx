@@ -17,7 +17,7 @@ type CardProps = {
 
 const Card = ({ data }: CardProps) => {
   return (
-    <div className="bg-white border rounded-lg w-[280px] sm:w-[320px] lg:w-[380px]">
+    <div className="bg-white border rounded-lg w-[100%] lg:w-[380px]">
       <CardTop
         src={data.logo}
         alt={data.altLogo}
